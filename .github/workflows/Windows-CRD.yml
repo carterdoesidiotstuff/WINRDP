@@ -22,3 +22,4 @@ jobs:
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: Keep Alive
       run: ./timeout.ps1
+& "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AY0e-g4xo90jDyY2rWNr2mddn6vPI7V-ArgG-Uz-BZFpTnm09Vo5K2kX19av2hiqhgcoLA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME
